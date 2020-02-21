@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Form</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>About You</legend>
+      <p>
+        <label for="first_name">
+          <span>First Name: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="text" id="first_name" name="first_name">
+      </p>
+      <p>
+        <label for="last_name">
+          <span>Last Name: </span>
+          <strong><abbr title="required">*</abbr></strong>
+        </label>
+        <input type="email" id="last_name" name="last_name">
+      </p>
+      <p>
+       <label for="birth_date">
+          <span>Birth date:</span>
+          <strong><abbr title="required">*</abbr></strong>
+          <em>formatted as dd/mm/yy</em>
+        </label>
+        <input type="date" id="birth_date" name="birth_date">     
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Favorite codes</legend>
+      <p>
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" id="javascript" name="javascript" value="javascript">
+      </p>
+      <p>
+        <label for="node">Node</label>
+        <input type="checkbox" id="peas" name="node" value="node">
+      </p>
+      <p>
+        <label for="php">PHP</label>
+        <input type="checkbox" id="cabbage" name="php" value="php">
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Favorte IDE</legend>
+      <p>
+        <input type="radio" name="ide" id="ide_1" value="small">
+        <label for="ide_1">IntellJ</label>
+      </p>
+      <p>
+        <input type="radio" name="ide" id="ide_2" value="medium">
+        <label for="ide_2">Visual Studio Code</label>
+      </p>
+      <p>
+        <input type="radio" name="ide" id="ide_3" value="large">
+        <label for="ide_3">Atom</label>
+      </p>
+    </fieldset>
+      <fieldset>
+      <legend>Favorite Mobile OS</legend>
+      <p>
+        <input type="radio" name="os" id="os_1" value="small">
+        <label for="os_1">Android</label>
+      </p>
+      <p>
+        <input type="radio" name="os" id="os_2" value="medium">
+        <label for="os_2">iOS</label>
+      </p>
+    </fieldset>
+  </form>
+
+  <p>
+    <label for="comments">Comments:</label>
+  </p>  
+    
+  <p>
+    <textarea id="comments" name="comments" rows="3" cols="30">
+    </textarea>
+  </p>
+    
+  <p>
+    <button type="reset">
+      <strong>Reset</strong>
+    </button>
+    <button type="send">
+      <strong>Send</strong>
+    </button>
+  </p>
+  
+</body>

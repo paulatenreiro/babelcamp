@@ -1,0 +1,197 @@
+.juan-maravilloso {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15em;
+    color: #a2a2a2;
+    padding-left: 1em;
+}
+
+header{
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1em;
+}
+
+.summary, .description, .list{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 0px;
+}
+
+.summary{
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.hola{
+    font-family:'Roboto', sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.soy-juan{
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 4.5em;
+    letter-spacing: 0.15em;
+}
+
+.hablamos{
+    font-family:'Roboto';
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #1c6698;
+    padding: 1em 2.5em;
+    background-color: #e7e7e7;
+    border-color: #1c6698;
+    border-radius: 5%;
+}
+
+
+.sobre-mi{
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.description-text{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #a2a2a2;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.dt-bold{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #a2a2a2;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-weight: bold;
+    padding-bottom: 3em;
+}
+
+.video-responsive {
+    /*risotas*/
+}
+
+.description{
+    background-color: black;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list{
+    background-color: #e7e7e7;
+    display: flex;
+    flex-direction: column;    
+    overflow-x: auto;
+    padding-bottom: 3em;
+}
+
+.habilidades {
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.10em;
+    text-align: center;
+    color: black;
+}
+
+.scroll{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+}
+
+.rectangle{
+    text-align: center;
+    width: 300px;
+    height: 480px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #000000;
+}
+
+.titulo-rectangle{
+    padding: 2em;
+    font-family: 'Bebas Neue';
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #a2a2a2;
+}
+
+.subtitulo-rectangle{
+    font-family: 'Bebas Neue';
+    font-size: 1.2em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+}
+
+.texto-rectangle{
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    color: #a2a2a2;
+    padding-bottom: 1.2em;
+}
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding: 1em 1em;
+}
+
+
